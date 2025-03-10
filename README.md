@@ -1,7 +1,7 @@
 #  Project Proposal for DSA 210
 
 ## **Project Title:**  
-Visualizing Worker Performance in Teknosan Machining Co. Based on Experience Levels
+Analyzing Worker Performance in Teknosan Machining Co. Based on Experience Levels
 
 ## **Researcher:**  
 Arda Şevket Akgül

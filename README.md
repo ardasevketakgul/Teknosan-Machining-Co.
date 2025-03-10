@@ -17,23 +17,22 @@ This project aims to visualize worker performance data at Teknosan Machining Co.
 ---
 
 ## **Data Sources**  
-### **Primary Dataset: Worker Performance Data**  
+### **Dataset: Worker Performance Data**  
 - Collected from Teknosan Machining Co.  
 - Contains variables such as:  
   - Worker ID  
   - Shift Type (Day/Night)  
   - Work Hours  
   - Productivity Metrics (Parts Produced, Defect Rates)  
-  - Machine Usage  
+  - Machine Usage
+  - Experience Level (Years of Work Experience) 
     
 
 This dataset will be analyzed and visualized to identify trends and patterns in relation to worker experience.
 
 ---
-### **Secondary(Enrichment) Dataset: Worker Experience Data**
-   - Experience Level (Years of Work Experience)
-     (will be used for hypothesis)
----  
+
+ 
 ## **Research Question & Hypothesis**  
 ### **Hypothesis: The Impact of Worker Experience on Defect Rates**  
 **H₀ (Null Hypothesis):** Worker experience has no significant impact on defect rates.  

@@ -1,30 +1,74 @@
-# Forest-Fires-in-Turkey
+#  Project Proposal for DSA 210
 
-### Project Overview
-In Turkey, forest fires constitute a serious environmental and socioeconomic problem. Large tracts of forest, wildlife, and occasionally human settlements are destroyed as a result. In order to determine the elements that contribute to fire occurrences, this project will analyze historical forest fire data from Turkey from 2010 to 2024. Understanding the effects of environmental and human-related causes and forecasting future forest fires are the objectives.
+## **Project Title:**  
+Visualizing Worker Performance in Teknosan Machining Co. Based on Experience Levels
 
-### Data Collection Plan
-The data for this project will be collected from the following publicly available datasets:
-- **Tarım ve Orman Bakanlığı**: Data on the locations, time, and size of forest fires in Turkey.
-- **Global Wildfire Information System (GWIS)**: Global wildfire data that will allow for comparable evaluation.
-- **Meteoroloji Genel Müdürlüğü,OpenWeatherMap etc.**: Meteorological data such as temperature and wind speed, which are important in understanding fire behavior.
-- **Additional Enrichment Data**: Data on land use, human settlements, and population density, which will be obtained from GIS datasets.
+## **Researcher:**  
+Arda Şevket Akgül
+## **Course & Term:**  
+DSA 210 - Introduction to Data Science  
+Spring 2024-2025  
+
+---
+
+## **Project Overview**  
+This project aims to visualize worker performance data at Teknosan Machining Co. using various data visualization techniques. The objective is to explore how worker experience levels correlate with productivity and defect rates through visual representations. The project will involve data cleaning, exploratory analysis, and graphical interpretations to present meaningful insights.
+
+---
+
+## **Data Sources**  
+### **Primary Dataset: Worker Performance Data**  
+- Collected from Teknosan Machining Co.  
+- Contains variables such as:  
+  - Worker ID  
+  - Shift Type (Day/Night)  
+  - Work Hours  
+  - Productivity Metrics (Parts Produced, Defect Rates)  
+  - Machine Usage  
+  - Experience Level (Years of Work Experience)  
+
+This dataset will be analyzed and visualized to identify trends and patterns in relation to worker experience.
+
+---
+
+## **Research Question & Hypothesis**  
+### **Hypothesis: The Impact of Worker Experience on Defect Rates**  
+**H₀ (Null Hypothesis):** Worker experience has no significant impact on defect rates.  
+**H₁ (Alternative Hypothesis):** More experienced workers produce fewer defects.  
+
+---
+
+## **Analysis Plan**  
+### **1. Data Collection & Cleaning **  
+- Verify data completeness and consistency  
+- Handle missing values & outliers  
+
+### **2. Exploratory Data Analysis (EDA) & Visualization**  
+- Visualize trends in worker experience vs. defect rates  
+- Generate scatter plots, histograms, and bar charts  
+- Create heatmaps and correlation matrices to explore relationships  
+
+### **3. Hypothesis Testing **  
+
+
+---
 
 
 
-### Project Approach
-The project will follow the data science workflow:
-1. **Data Collection**: Gather the necessary data from the mentioned sources.
-2. **Data Cleaning**: Preprocess the data to handle missing values, outliers, and ensure data consistency.
-3. **Exploratory Data Analysis (EDA)**: Analyze the data using visualizations and descriptive statistics to identify significant patterns and trends.
-4. **Machine Learning**: Implement machine learning models to predict future fire occurrences based on historical patterns.
-5. **Results and Conclusion**: Summarize the findings and propose recommendations for fire prevention strategies.
+---
 
-### Expected Outcomes
-- Identification of key factors contributing to forest fires in Turkey.
-- Development of a predictive model for future forest fire risk.
-- Insights for improving forest fire management and prevention strategies.
+## **Learning Objectives**  
+By completing this project, I will:  
+- Apply data science methodologies to explore real-world patterns  
+- Develop skills in data collection, preparation, and visualization  
+- Implement statistical techniques for hypothesis testing  
+- Create effective data visualizations to communicate findings  
+- Document and present results clearly through reports and presentations  
+- Practice ethical considerations in data science when handling real-world data  
 
+---
 
-
-
+## **Expected Impact**  
+- Provide clear visual insights into worker performance trends  
+- Help identify patterns in experience vs. defect rates  
+- Enable better understanding of how experience influences productivity  

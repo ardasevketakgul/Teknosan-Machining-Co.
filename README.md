@@ -25,7 +25,7 @@ This project aims to visualize worker performance data at Teknosan Machining Co.
   - Work Hours  
   - Productivity Metrics (Parts Produced, Defect Rates)  
   - Machine Usage  
-  - Experience Level (Years of Work Experience)  
+    
 
 This dataset will be analyzed and visualized to identify trends and patterns in relation to worker experience.
 

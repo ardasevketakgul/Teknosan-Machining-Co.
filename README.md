@@ -12,7 +12,7 @@ Spring 2024-2025
 ---
 
 ## **Project Overview**  
-This project aims to visualize worker performance data at Teknosan Machining Co. using various data visualization techniques. The objective is to explore how worker experience levels correlate with productivity and defect rates through visual representations. The project will involve data cleaning, exploratory analysis, and graphical interpretations to present meaningful insights.
+This project aims to analyze worker performance data at Teknosan Machining Co. using various data analyzing techniques. The objective is to explore how worker experience levels correlate with productivity and defect rates through visual representations. The project will involve data cleaning, exploratory analysis, and graphical interpretations to present meaningful insights.
 
 ---
 

@@ -17,7 +17,7 @@ This project aims to analyze worker performance data at Teknosan Machining Co. u
 ---
 
 ## **Data Sources**  
-### **Dataset: Worker Performance Data**  
+### **Primary Dataset: Worker Performance Data**  
 - Collected from Teknosan Machining Co.  
 - Contains variables such as:  
   - Worker ID  
@@ -25,14 +25,22 @@ This project aims to analyze worker performance data at Teknosan Machining Co. u
   - Work Hours  
   - Productivity Metrics (Parts Produced, Defect Rates)  
   - Machine Usage
-  - Experience Level (Years of Work Experience) 
+   
     
 
-This dataset will be analyzed and visualized to identify trends and patterns in relation to worker experience.
+### **Supportive Dataset: Worker Experience Data**  
+- Collected from Teknosan Machining Co.  
+- Contains variables such as:  
+  - Employment Duration
+  - Skill Level (manager-rated)
+  
+
+These datasets will be analyzed and visualized to identify trends and patterns in relation to worker experience.
 
 ---
 
- 
+
+
 ## **Research Question & Hypothesis**  
 ### **Hypothesis: The Impact of Worker Experience on Defect Rates**  
 **H₀ (Null Hypothesis):** Worker experience has no significant impact on defect rates.  

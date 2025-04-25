@@ -70,7 +70,7 @@ We then calculated the average efficiency for both groups and applied an indepen
 Null Hypothesis (H0): There is no difference in efficiency between low and high experience groups.
 Alternative Hypothesis (H1): Workers with more experience are more efficient.
 After conducting the t-test, we observed a p-value below 0.05, indicating a statistically significant difference between the groups. Therefore, we rejected the null hypothesis and concluded that more experienced workers tend to be more efficient.
-![Experience Boxplot](visualization/ekrankaydı/Ekran Resmi 2025-04-25 20.08.45.png)
+![Experience Boxplot](visualization/ekrankaydı/a)
 
 Hypothesis 2: Do night shift workers perform worse?
 To test whether working the night shift negatively affects productivity, we compared the efficiency of:

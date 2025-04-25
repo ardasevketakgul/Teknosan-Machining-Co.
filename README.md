@@ -68,7 +68,12 @@ These datasets will be analyzed and visualized to identify trends and patterns i
 
   
 
+**Distribution of Efficiency**
 
+
+I created a histogram to see how efficiency values are spread across all workers. This visualization helps understand the overall distribution of productivity. It shows if most workers are around the average efficiency, and if there are any workers who are extremely efficient or inefficient compared to others. It is a good way to spot outliers and understand the general performance level in the company.
+
+![Efficiency Histogram](visualization/ekrankaydı/d)
 
 
 

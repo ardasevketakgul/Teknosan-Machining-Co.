@@ -1,9 +1,0 @@
-import matplotlib.pyplot as plt
-
-plt.hist(data['efficiency'], bins=20, edgecolor='black')
-plt.title('Efficiency Distribution')
-plt.xlabel('Efficiency')
-plt.ylabel('Frequency')
-plt.grid(False)
-plt.tight_layout()
-plt.show()

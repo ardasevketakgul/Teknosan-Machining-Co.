@@ -42,10 +42,13 @@ These datasets will be analyzed and visualized to identify trends and patterns i
 
 
 ## **Research Question & Hypothesis**  
-### **Hypothesis: The Impact of Worker Experience on Defect Rates**  
+### **Hypothesis1: The Impact of Worker Experience on Defect Rates**  
 **H₀ (Null Hypothesis):** Worker experience has no significant impact on defect rates.  
 **H₁ (Alternative Hypothesis):** More experienced workers produce fewer defects.  
 
+### **Hypothesis2: The Impact of Shift Time on Defect Rates**  
+**H₀ (Null Hypothesis):** Shift time has no significant impact on defect rates.  
+**H₁ (Alternative Hypothesis):** Nightshift workers produce with higher defect rates.
 ---
 
 ## **Analysis Plan**  

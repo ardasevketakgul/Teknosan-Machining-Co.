@@ -133,6 +133,7 @@ In order to investigate whether experience affects productivity, I grouped worke
 Low Experience: 5 years or less
 
 High Experience: more than 5 years
+
 I then calculated the average efficiency for both groups and applied an independent samples t-test to evaluate the statistical significance of the difference.
 
 Null Hypothesis (H0): There is no difference in efficiency between low and high experience groups.
@@ -146,6 +147,7 @@ To test whether working the night shift negatively affects productivity, I compa
 Day Shift Workers: shift 1 and 2
 
 Night Shift Workers: shift 3
+
 I performed a correlation analysis between shift number and efficiency.
 
 Null Hypothesis (H0): There is no relationship between shift and efficiency.

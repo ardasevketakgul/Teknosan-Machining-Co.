@@ -57,6 +57,13 @@ These datasets will be analyzed and visualized to identify trends and patterns i
 - Visualize trends in worker experience vs. defect rates  
 - Generate scatter plots, histograms, and bar charts  
 - Create heatmaps and correlation matrices to explore relationships  
+**I wanted to visualize how efficient each worker is, one by one. In this scatter plot, every point represents a single worker. I sorted them by order in the dataset and plotted their efficiency scores. This helps to see which workers are much higher or lower than the others in terms of productivity.**
+  ![Efficiency Scatter](visualization/ekrankaydı/c)
+
+
+
+
+
 
 ### **3. Hypothesis Testing **  
 
@@ -82,7 +89,7 @@ I performed both an independent t-test and a correlation analysis between shift 
 Null Hypothesis (H0): There is no relationship between shift and efficiency.
 Alternative Hypothesis (H1): Night shift workers are less efficient than day shift workers.
 The p-value from the statistical tests was much higher than 0.05 (around 0.8), which means I failed to reject the null hypothesis. There is no statistically significant difference in efficiency between shifts. Thus, I cannot conclude that night shifts reduce productivity based on the available data.
-![Experience Boxplot](visualization/ekrankaydı/b)
+![Shift Scatter](visualization/ekrankaydı/b)
 
 
 

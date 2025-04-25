@@ -60,7 +60,7 @@ These datasets will be analyzed and visualized to identify trends and patterns i
 
 ### **3. Hypothesis Testing **  
 
-Hypothesis 1: Do more experienced workers perform better?
+**Hypothesis 1**: Do more experienced workers perform better?
 In order to investigate whether experience affects productivity, we grouped workers into two categories based on their years of experience:
 
 Low Experience: 5 years or less
@@ -72,7 +72,7 @@ Alternative Hypothesis (H1): Workers with more experience are more efficient.
 After conducting the t-test, we observed a p-value below 0.05, indicating a statistically significant difference between the groups. Therefore, we rejected the null hypothesis and concluded that more experienced workers tend to be more efficient.
 ![Experience Boxplot](visualization/ekrankaydı/a)
 
-Hypothesis 2: Do night shift workers perform worse?
+**Hypothesis 2**: Do night shift workers perform worse?
 To test whether working the night shift negatively affects productivity, we compared the efficiency of:
 
 Day Shift Workers: shift 1 and 2

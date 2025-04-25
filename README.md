@@ -90,12 +90,12 @@ To get a general understanding of the dataset, I calculated summary statistics s
 
 
 
-**Correlation Matrix**
+**Correlation Matrix in Efficiency Dataswt**
 
 
 To understand if other numeric variables affect worker productivity, I created a simple correlation matrix. I checked how efficiency is related to work time, pause time, and processed quantity. The matrix shows the strength and direction of these relationships.
 
-Most of the correlations were weak, meaning there is no very strong linear relationship between efficiency and these factors. This shows that productivity might depend on other variables that were not included in this analysis. For example, if the correlation between pause time and efficiency is negative, it makes sense because more breaks might lower productivity.
+Most of the correlations were weak, meaning there is no very strong linear relationship between efficiency and these factors. This shows that productivity might depend on other variables that were not included in this dataset such as experience. For example, if the correlation between pause time and efficiency is negative, it makes sense because more breaks might lower productivity.
                      
                      
  ![CORmatrx](visualization/ekrankaydı/e)

@@ -1,0 +1,23 @@
+import matplotlib.pyplot as plt
+from scipy.stats import pearsonr, spearmanr
+
+plt.scatter(data['shift'], data['efficiency'])
+plt.xlabel('Shift')
+plt.ylabel('Efficiency')
+plt.title('Shift vs Efficiency')
+plt.grid(True)
+plt.tight_layout()
+plt.show()
+
+pearson_corr, pearson_p = pearsonr(data['shift'], data['efficiency'])
+print("Pearson correlation:", pearson_corr)
+print("Pearson p-value:", pearson_p)
+
+spearman_corr, spearman_p = spearmanr(data['shift'], data['efficiency'])
+print("Spearman correlation:", spearman_corr)
+print("Spearman p-value:", spearman_p)
+
+if spearman_p < 0.05:
+    print("There is a significant relationship between shift and efficiency.")
+else:
+    print("No significant relationship found.")

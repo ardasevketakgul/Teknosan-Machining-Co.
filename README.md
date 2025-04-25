@@ -1,4 +1,4 @@
-#  Project Proposal for DSA 210
+#   DSA 210 PROJECT   #
 
 ## **Project Title:**  
 Analyzing Worker Performance in Teknosan Machining Co. Based on Experience Levels

@@ -58,6 +58,8 @@ These datasets will be analyzed and visualized to identify trends and patterns i
 - Generate scatter plots, histograms, and bar charts  
 - Create heatmaps and correlation matrices to explore relationships  
 
+***I performed exploratory data analysis to better understand the structure and patterns in the dataset. Several visualizations were created.***
+
 
 **Worker by Worker Efficiency**
   

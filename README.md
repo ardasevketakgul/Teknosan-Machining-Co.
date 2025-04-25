@@ -82,7 +82,7 @@ We performed both an independent t-test and a correlation analysis between shift
 Null Hypothesis (H0): There is no relationship between shift and efficiency.
 Alternative Hypothesis (H1): Night shift workers are less efficient than day shift workers.
 The p-value from the statistical tests was much higher than 0.05 (around 0.8), which means we failed to reject the null hypothesis. There is no statistically significant difference in efficiency between shifts. Thus, we cannot conclude that night shifts reduce productivity based on the available data.
-![Experience Boxplot](visualization/ekrankaydı/a)
+![Experience Boxplot](visualization/ekrankaydı/b)
 
 
 

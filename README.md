@@ -68,24 +68,15 @@ These datasets will be analyzed and visualized to identify trends and patterns i
 **Summary Statistics**
 
 To get a general understanding of the dataset, I calculated summary statistics such as mean, standard deviation, minimum and maximum values for the numeric variables. This gives a basic overview of how the data is distributed and if there are any extreme values.
-day      shift  machine_number  processed_quantity  \
-count  54.000000  54.000000       54.000000           54.000000   
-mean    5.759259   1.796296       91.870370          129.981481   
-std     7.086887   0.761816       18.983654           98.772751   
-min     1.000000   1.000000       60.000000           14.000000   
-25%     2.000000   1.000000       82.250000           85.750000   
-50%     2.000000   2.000000       90.000000          105.000000   
-75%     8.000000   2.000000      109.000000          147.500000   
- 
+               day    shift  machine_number  processed_quantity  material_error  labor_error  efficiency  years_of_experience
+count    54.00    54.00            54.00               54.00            54.00        54.00        54.00               54.00
+mean      5.76     1.80            91.87              129.98             0.15         0.44        94.27                3.10
+std       7.09     0.76            18.98               98.77             0.53         1.79        20.55                2.22
+min       1.00     1.00            60.00               14.00             0.00         0.00        62.50                0.50
+25%       2.00     1.00            82.25               85.75             0.00         0.00        80.00                2.00
+50%       2.00     2.00            90.00              105.00             0.00         0.00        94.02                2.50
+75%       8.00     2.00           109.00              147.50             0.00         0.00       106.81                4.00
 
-   material_error  labor_error  efficiency  years_of_experience  
-count       54.000000    54.000000   54.000000            54.000000  
-mean         0.148148     0.444444   94.271852             3.101852  
-std          0.528701     1.787447   20.552952             2.222058  
-min          0.000000     0.000000   62.500000             0.500000  
-25%          0.000000     0.000000   80.000000             2.000000  
-50%          0.000000     0.000000   94.020000             2.500000  
-75%          0.000000     0.000000  106.810000             4.000000  
 
 (From the summary, I noticed that most workers have a similar range of efficiency values, and the number of processed quantities varies a lot between workers.)
 

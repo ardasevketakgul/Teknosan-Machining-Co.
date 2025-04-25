@@ -47,9 +47,9 @@ These datasets will be analyzed and visualized to identify trends and patterns i
 **H₀ (Null Hypothesis): Worker experience has no significant impact on defect rates.  
 **H₁ (Alternative Hypothesis): More experienced workers produce fewer defects.  
 
-### **Hypothesis1: The Impact of Shift Time on Defect Rates**
-**H₀ (Null Hypothesis): Shift time has no significant impact on defect rates.  
-**H₁ (Alternative Hypothesis): Night Shift workers produce with higher defect rates.
+### **Hypothesis1: The Impact of Shift Type on Defect Rates**
+**H₀ (Null Hypothesis): Shift type has no significant impact on defect rates.  
+**H₁ (Alternative Hypothesis): Night-shift workers produce with higher defect rates.
 
 
 
@@ -145,7 +145,7 @@ To test whether working the night shift negatively affects productivity, I compa
 
 Day Shift Workers: shift 1 and 2
 Night Shift Workers: shift 3
-I performed both an independent t-test and a correlation analysis between shift number and efficiency.
+I performed a correlation analysis between shift number and efficiency.
 
 Null Hypothesis (H0): There is no relationship between shift and efficiency.
 Alternative Hypothesis (H1): Night shift workers are less efficient than day shift workers.

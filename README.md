@@ -31,7 +31,7 @@ This project aims to analyze worker performance data at Teknosan Machining Co. u
 ### **Supportive Dataset: Worker Experience Data**  
 - Collected from Teknosan Machining Co.  
 - Contains variables such as:  
-  - Employment Duration
+  - Years of experience
   
   
 

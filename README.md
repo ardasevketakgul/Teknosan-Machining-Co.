@@ -144,6 +144,7 @@ After conducting the t-test, I observed a p-value below 0.05, indicating a stati
 To test whether working the night shift negatively affects productivity, I compared the efficiency of:
 
 Day Shift Workers: shift 1 and 2
+
 Night Shift Workers: shift 3
 I performed a correlation analysis between shift number and efficiency.
 

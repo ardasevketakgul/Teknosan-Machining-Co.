@@ -57,8 +57,14 @@ These datasets will be analyzed and visualized to identify trends and patterns i
 - Visualize trends in worker experience vs. defect rates  
 - Generate scatter plots, histograms, and bar charts  
 - Create heatmaps and correlation matrices to explore relationships  
-**1-)I wanted to visualize how efficient each worker is, one by one. In this scatter plot, every point represents a single worker. I sorted them by order in the dataset and plotted their efficiency scores. This helps to see which workers are much higher or lower than the others in terms of productivity.**
+
+
+**Worker by Worker Efficiency**
+  I wanted to visualize how efficient each worker is, one by one. In this scatter plot, every point represents a single worker. I sorted them by order in the dataset and plotted their efficiency scores. This helps to see which workers are much higher or lower than the others in terms of productivity.**
   ![Efficiency Scatter](visualization/ekrankaydı/c)
+
+
+  
 
 
 

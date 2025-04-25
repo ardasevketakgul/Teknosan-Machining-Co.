@@ -59,11 +59,10 @@ These datasets will be analyzed and visualized to identify trends and patterns i
 - Handle missing values & outliers  
 
 ### **2. Exploratory Data Analysis (EDA) & Visualization**  
-- 
 - Visualize trends in worker experience vs. defect rates  
 - Generate scatter plots, histograms, and bar charts  
 - Create heatmaps and correlation matrices to explore relationships
--  
+  
 
 ***I performed exploratory data analysis to better understand the structure and patterns in the dataset. Several visualizations were created.***
 

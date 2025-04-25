@@ -70,14 +70,20 @@ These datasets will be analyzed and visualized to identify trends and patterns i
 **Summary Statistics**
 
 To get a general understanding of the dataset, I calculated summary statistics such as mean, standard deviation, minimum and maximum values for the numeric variables. This gives a basic overview of how the data is distributed and if there are any extreme values.
-               day    shift  machine_number  processed_quantity  material_error  labor_error  efficiency  years_of_experience
-count    54.00    54.00            54.00               54.00            54.00        54.00        54.00               54.00
-mean      5.76     1.80            91.87              129.98             0.15         0.44        94.27                3.10
-std       7.09     0.76            18.98               98.77             0.53         1.79        20.55                2.22
-min       1.00     1.00            60.00               14.00             0.00         0.00        62.50                0.50
-25%       2.00     1.00            82.25               85.75             0.00         0.00        80.00                2.00
-50%       2.00     2.00            90.00              105.00             0.00         0.00        94.02                2.50
-75%       8.00     2.00           109.00              147.50             0.00         0.00       106.81                4.00
+              Summary Statistics
+
+
+
+|        | day | shift | machine_number | processed_quantity | material_error | labor_error | efficiency | years_of_experience |
+|--------|-----|-------|----------------|--------------------|----------------|-------------|------------|---------------------|
+| count  | 54  | 54    | 54             | 54                 | 54             | 54          | 54         | 54                  |
+| mean   | 5.76| 1.80  | 91.87           | 129.98              | 0.15           | 0.44        | 94.27      | 3.10                |
+| std    | 7.09| 0.76  | 18.98           | 98.77               | 0.53           | 1.79        | 20.55      | 2.22                |
+| min    | 1.00| 1.00  | 60.00           | 14.00               | 0.00           | 0.00        | 62.50      | 0.50                |
+| 25%    | 2.00| 1.00  | 82.25           | 85.75               | 0.00           | 0.00        | 80.00      | 2.00                |
+| 50%    | 2.00| 2.00  | 90.00           | 105.00              | 0.00           | 0.00        | 94.02      | 2.50                |
+| 75%    | 8.00| 2.00  | 109.00          | 147.50              | 0.00           | 0.00        | 106.81     | 4.00                |
+| max    | 21.00| 3.00 | 117.00          | 606.00              | 3.00           | 12.00       | 173.14     | 10.00               |
 
 
 (From the summary, I noticed that most workers have a similar range of efficiency values, and the number of processed quantities varies a lot between workers.)

@@ -47,7 +47,7 @@ These datasets will be analyzed and visualized to identify trends and patterns i
 **H₀ (Null Hypothesis): Worker experience has no significant impact on defect rates.  
 **H₁ (Alternative Hypothesis): More experienced workers produce fewer defects.  
 
-### **Hypothesis1: The Impact of Shift Type on Defect Rates**
+### **Hypothesis2: The Impact of Shift Type on Defect Rates**
 **H₀ (Null Hypothesis): Shift type has no significant impact on defect rates.  
 **H₁ (Alternative Hypothesis): Night-shift workers produce with higher defect rates.
 
@@ -131,6 +131,7 @@ I created a histogram to see how efficiency values are spread across all workers
 In order to investigate whether experience affects productivity, I grouped workers into two categories based on their years of experience:
 
 Low Experience: 5 years or less
+
 High Experience: more than 5 years
 I then calculated the average efficiency for both groups and applied an independent samples t-test to evaluate the statistical significance of the difference.
 

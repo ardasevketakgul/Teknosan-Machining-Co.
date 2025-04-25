@@ -2,22 +2,22 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from scipy.stats import ttest_ind
 
-# loading the data
+# yükledim
 def get_data():
     data1 = pd.read_csv('TEKNOSAN_DATA.csv', delimiter=';')
     data2 = pd.read_csv('teknosan_worker_experience.csv', delimiter=';')
 
     data1.columns = data1.columns.str.strip()  # remove spaces in column names
 
-    # combine both tables using worker name
+    #birşeltirir
     full_data = pd.merge(data1, data2, left_on='worker_name', right_on='worker_id', how='inner')
 
-    # convert efficiency to float (for example 109,3 -> 109.3)
+    # convert to float (for example 109,3 -> 109.3) ŞARTTI
     full_data['efficiency'] = full_data['efficiency'].astype(str).str.replace(',', '.').astype(float)
 
     return full_data
 
-# making groups by experience
+# tecrübe clusterı
 def make_groups(data):
     groups = []
     for exp in data['years_of_experience']:
@@ -28,7 +28,7 @@ def make_groups(data):
     data['experience_level'] = groups
     return data
 
-# check average and plot boxplot
+# plotlar
 def show_efficiency(data):
     print("Average efficiency:")
     print(data.groupby('experience_level')['efficiency'].mean())
@@ -41,7 +41,7 @@ def show_efficiency(data):
     plt.tight_layout()
     plt.show()
 
-# run t-test
+# t yapıyor
 def do_ttest(data):
     low = data[data['experience_level'] == 'Low']['efficiency']
     high = data[data['experience_level'] == 'High']['efficiency']
@@ -57,7 +57,7 @@ def do_ttest(data):
     else:
         print("No big difference found.")
 
-# run all
+# çağır
 data = get_data()
 data = make_groups(data)
 show_efficiency(data)

@@ -1,0 +1,9 @@
+plt.figure(figsize=(12, 5))
+plt.scatter(range(1, len(data) + 1), data['efficiency'])
+plt.title('Worker Index vs Efficiency')
+plt.xlabel('Worker Index')
+plt.ylabel('Efficiency')
+plt.xticks(range(1, len(data) + 1, 5))  # change 5 to 1 if you want every tick
+plt.grid(True)
+plt.tight_layout()
+plt.show()

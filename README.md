@@ -59,12 +59,27 @@ These datasets will be analyzed and visualized to identify trends and patterns i
 - Handle missing values & outliers  
 
 ### **2. Exploratory Data Analysis (EDA) & Visualization**  
+- Clean the data and make it ready to analyze
 - Visualize trends in worker experience vs. defect rates  
 - Generate scatter plots, histograms, and bar charts  
 - Create heatmaps and correlation matrices to explore relationships
   
 
 ***I performed exploratory data analysis to better understand the structure and patterns in the dataset. Several visualizations were created.***
+
+**Fixing CSV Conversion Issues**
+
+When I first converted the Excel files to CSV, there were some issues caused by extra elements in the original files such as company logos, headers, or empty formatting areas. These non-data parts were being read into the dataframe, which caused unexpected columns filled with 0s or NaN values.
+
+To fix this, I cleaned the CSV files by removing those extra rows and columns manually. After cleaning, the dataset became consistent and ready for analysis. This step was important to make sure that the EDA and all calculations were based on valid and meaningful data only.
+
+
+
+
+
+
+
+
 
 **Summary Statistics**
 

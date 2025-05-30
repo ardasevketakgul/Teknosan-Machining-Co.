@@ -1,0 +1,86 @@
+ Use of AI and External Sources
+
+While the classification versions of Decision Trees and Support Vector Machines were included in the course material, their regression versions (DecisionTreeRegressor, SVR) were not  covered.
+
+Since my aim  in this project required predicting a numerical variable (efficiency, pause time), I needed models that work for regression problems. To handle this properly and stay within the scope of the project, I researched how to use these models in a regression setting.
+
+To support this learning process, I consulted ChatGPT, to:
+
+- Understand how these models operate for continuous outputs,
+- Learn about metrics like R² and RMSE for model evaluation,
+- Choose appropriate parameters (e.g., `kernel='rbf'` in SVR or `max_depth` in Decision Trees),
+- And properly interpret the results.
+
+This use of AI is clearly declared as required in the project guidelines, and all implementation, testing, and interpretation were independently completed by me.
+
+                                                                                                                                                                                                                    
+from sklearn.feature_selection import mutual_info_regression
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import r2_score, mean_squared_error
+import pandas as pd
+
+
+y = df['efficiency']  
+
+# gereksizler
+X = df.drop(columns=['efficiency', 'processed_quantity', 'adjustment_data','worker_id', 'worker_name', 'part_name_number'])
+
+
+X_encoded = pd.get_dummies(X, drop_first=True)
+
+# MI
+mi_scores = mutual_info_regression(X_encoded, y)
+mi_series = pd.Series(mi_scores, index=X_encoded.columns).sort_values(ascending=False)
+
+# top4u aldım
+top_features = mi_series.head(4).index.tolist()
+X_top = X_encoded[top_features]
+
+X_train, X_test, y_train, y_test = train_test_split(X_top, y, test_size=0.2, random_state=42)
+
+rf_model = RandomForestRegressor(random_state=42)
+rf_model.fit(X_train, y_train)
+
+y_pred = rf_model.predict(X_test)
+r2 = r2_score(y_test, y_pred)
+rmse = mean_squared_error(y_test, y_pred) ** 0.5
+
+print(f"Random Forest R²: {r2:.2f}")
+print(f"Random Forest RMSE: {rmse:.2f}")
+
+
+
+SVR
+
+
+
+
+
+from sklearn.svm import SVR
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_squared_error, r2_score
+import pandas as pd
+# THIS SVR PART OF THE PROJECT IS PRACTICED WITH CHATGPT TO LEARN REGRESSION VIA USING SUPPORT VECTORS, ALSO WANTED TO USE A MODEL WHICH WE DID NOT SEE IN THE LECTURES FOR COMPARISON
+
+y = df['efficiency'] 
+#eff olmazsa hedef değişmi planlıyorum
+
+# tahminle doğrudan ilişkili olanları çıkardım önceki gibi(I hope turkish is ok for the notes I took for myself)
+X = df.drop(columns=['efficiency', 'processed_quantity', 'adjustment_data','worker_id', 'worker_name', 'part_name_number'])
+
+X_encoded = pd.get_dummies(X, drop_first=True)
+
+X_train, X_test, y_train, y_test = train_test_split(X_encoded, y, test_size=0.2, random_state=42)
+
+# kernel çekirdek fonskiyonlardan biriymiş
+svr_model = SVR(kernel='rbf')
+svr_model.fit(X_train, y_train)
+
+y_pred = svr_model.predict(X_test)
+
+r2 = r2_score(y_test, y_pred)
+rmse = mean_squared_error(y_test, y_pred)**0.5
+
+print(f"SVR R²: {r2:.2f}")
+print(f"SVR RMSE: {rmse:.2f}")

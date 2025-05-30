@@ -9,7 +9,7 @@ To support this learning process, I consulted ChatGPT, to:
 - Understand how these models operate for continuous outputs,
 - Learn about metrics like R² and RMSE for model evaluation,
 - Choose appropriate parameters (e.g., `kernel='rbf'` in SVR or `max_depth` in Decision Trees),
-- And properly interpret the results.
+
 
 This use of AI is clearly declared as required in the project guidelines, and all implementation, testing, and interpretation were independently completed by me.
 
